@@ -1,0 +1,197 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+
+nav {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #161616;
+}
+
+#search {
+    display: flex;
+    gap: 10px;
+    
+}
+
+#search input {
+    padding: 0px 10px;
+    border:0
+}
+#search-buttons button {
+font-size: 14px;
+font-weight: 500;
+}
+
+.search-card {
+    width: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.search-card h2 {
+    margin: 0;
+}
+
+.search-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.search-card button {
+    font-size: 14px;
+    font-weight: 500;
+}
+#search-results {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    z-index: 10;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+#logo h1 {
+    font-weight: 600;
+    color: white;
+}
+
+#nav-links  {
+    display: flex;
+    gap: 20px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: white
+}
+
+#tint {
+    left: 0; top: 0;
+    position: absolute;
+    height: 93.4vh;
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 100%;
+    z-index: 0;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 20px;
+    height: 93.4vh;
+    background-size: cover;
+    background-position: center;
+    gap: 60px;
+}
+
+
+#social {
+    z-index: 1;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+flex-direction: column;
+    gap: 10px;
+}
+
+#hero {
+    z-index: 1;
+    display: flex;
+    gap: 200px;
+}
+#hero div {
+    max-width: 500px;
+}
+
+#hero h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 900;
+    color: white;   
+}
+
+#hero p {
+    color: white;
+    font-size: 18px;
+}
+
+
+button {
+    background-color: #006970;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#team-members {
+    display: flex;
+    gap: 50px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.team-member h3 {
+    margin: 0;
+    color:white;
+}
+
+.team-member h6 {
+    margin: 0;
+    color:white;
+}
+
+.team-member img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+#contact-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-form input, textarea {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+#contact-form div {
+    display: flex;
+    justify-content: right;
+}
+
+
